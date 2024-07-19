@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet");
+/* método de importar a fonte do google fontes ou pelo html dentro da tag head */
+
+h1 {
+    color:red;
+    font-size: 64px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder; /* negrito */
+    font-style: italic; /* estilo da fonte, pode ser normal ou padrão */
+    text-shadow: 10px 10px 10px #ff0000; /* efeitos */
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: 900; /* define a largura da fonte*/
+    font-family: 'Roboto',sans-serif; /* fonte da letra*/
+    line-height: 100px; /* espaçamento das linhas */
+    letter-spacing: 10px; /* espaços das lentras */
+    word-spacing: 10px; /* espaços das palavras */
+    text-align: right; /* alinhamento */ 
+    text-transform: capitalize; /* transforma as letras */
+    text-decoration:underline; /* decora o texto */
+}

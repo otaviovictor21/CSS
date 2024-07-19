@@ -1,0 +1,18 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: #FF1493;
+    padding: 60px;
+    margin: 50px; /* tamanho, espaço, externo da tela */
+    border: 10px solid #0000ff;
+    box-sizing: border-box; /* cabe tudo em uma caixa com tanho fixo */
+    box-sizing: content-box; /* a caixa aumenta de acordo com intens nela colocado */
+}
+
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background:#a1e801 ;
+    padding: 30px; /* tamho, espaço, interno da div */
+    padding: 50px 10px 30px
+}

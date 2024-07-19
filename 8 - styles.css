@@ -1,0 +1,57 @@
+h1{
+    color: red;
+    background:darkmagenta;
+}
+
+p {
+    color: deeppink;
+    font-size: 20px;
+}
+
+button {
+    background-colorrgb(115, 211, 196):;
+    border-color: rgb(153, 45, 45);
+}
+
+#aperte-aqui {
+    color: darksalmon;
+}
+
+#titulo{ /*hashtag usado no id */
+    background: rgb(0,255,0); /* rgb (red,green,blue) significa todas as cores */
+    font-size: 50px;
+
+}
+
+.paragrafo{ /* (.) <-- ponto> usado na class*/
+    color: gold;
+    font-weight: bolder;
+}
+
+.paragrafo, #titulo, p,...> 
+
+/* OBRIGATORIO <--(COMENTARIO NO CSS) */
+
+
+
+/*
+HEXADECIMAL
+
+DECIMA (10) => 0,1,2,3,4,5,6,7,8,9,
+HEXADECIMAL => 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+*/
+
+/* UNIDADE DE MEDIDAS 
+
+-> ABSOLUTAS
+    px (pixels)
+    in (inches/polegadas)
+    cm / mm (centimetros / milimitros)
+
+-> RELATIVAS
+    % calcula o tamanho relativo ao tamanho do que está no nivel de cima
+    vw (view width) 1vw é 1% da largura da janela do navegador
+    vh (view height) 1vh é 1% da altura da janela do navegaor
+    em ( é uma unidade relativa ao elemento do topo superior)
+    rem (é uma unidade relativa ao elemento a parti inferior; a raiz 
+    */
